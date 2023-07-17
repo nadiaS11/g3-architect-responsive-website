@@ -185,7 +185,7 @@ main {
     margin-left: 60px;
 }
 
-.facts-card-container {
+.facts-card-container, .sponsors-icon {
     margin: 100px auto;
     display: flex;
     align-items: center;
@@ -208,7 +208,7 @@ font-size: 1.25rem;
 font-weight: 600;
 }
 
-.facts-card h2 {
+.facts-card h2, .sponsor-container h2 {
     color: #424242;
     font-size: 2.8rem;
     font-weight: 600;
@@ -218,7 +218,10 @@ font-weight: 600;
     font-size: 1.25rem;
     font-weight: 600;
 }
-
+.sponsor-container{
+    margin: 50px auto;
+    text-align: center;
+}
 
 
 
@@ -235,9 +238,9 @@ font-weight: 600;
 
     nav,
     .teams-container,
-    .features-container, .facts-card-container  {
+    .features-container, .facts-card-container, .sponsors-icon  {
         flex-direction: column;
-        gap: 10px;
+        gap: 30px;
     }
 
 
@@ -247,8 +250,8 @@ font-weight: 600;
     }
 
     .img-badge-container img {
-
-        margin-left: 10px;
+        width: 80%;
+        height: 80%;
     }
 
 
